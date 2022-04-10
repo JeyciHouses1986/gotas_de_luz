@@ -1,0 +1,438 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(243, 184, 243);
+    font-family: 'Kufam', sans-serif;
+    text-decoration: none;
+}
+
+h1 {    
+    margin: 15px 0 10px 0;
+    text-align: center;
+    }
+
+h2 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.imgBienvenida {
+    width: 350px;
+    height: 200px;
+    border: 7px solid rgb(156, 52, 216);
+    border-radius: 30px 0 30px 0;
+    box-shadow: 3px 3px 9px 2px rgb(59, 9, 88);
+}
+
+.videoSobreMi {
+    width: 60vw;
+    border: 7px solid rgb(156, 52, 216);
+    border-radius: 30px 0 30px 0;
+    box-shadow: 3px 3px 9px 2px rgb(59, 9, 88);
+}
+
+.imagenesP {
+    margin: 10px 0 10px 0;
+    width: 300px;
+    height: 260px;
+    border: 7px solid rgb(156, 52, 216);
+    border-radius: 30px 0 30px 0;
+    box-shadow: 3px 3px 9px 2px rgb(59, 9, 88);
+}
+
+.videoclientes {
+    text-align: center;
+    height: 60vh;
+    width: 55vw;
+    border: 7px solid rgb(156, 52, 216);
+    border-radius: 30px 0 30px 0;
+    box-shadow: 3px 3px 9px 2px rgb(59, 9, 88);
+}
+
+footer {
+    font-size: small;
+    margin: 30px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+/* MOBILE FIRST */
+/*------------------- INDEX -------------------*/
+/*---- MOBILE ----*/
+@media (max-width: 480px) {
+
+    /*Inicio estilo del header */
+.container {
+    height: 290px;
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0;
+    grid-template-areas: "logo" "nave";
+    align-items: center;
+    align-content: space-around;
+}
+    
+.box1 {
+    grid-area: logo;
+    text-align: center;
+}
+.box2 {
+    grid-area: nave;
+    height: 50px;
+}
+    
+.imgLogo {
+    width: 350px;
+    height: 180px;
+    margin: 0 0 0 10px;
+}
+    
+.ulNav { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 0;
+} 
+    
+.listaNav {
+    margin: 10px;
+    padding: 3px;
+    text-align: center;
+    list-style-type:none;
+    border: 3px solid rgb(156, 52, 216);
+    border-radius: 8px 0 8px 0;
+    background-color: rgb(156, 52, 216);
+    box-shadow: 2px 2px 7px 1px rgb(59, 9, 88);
+}
+    
+.botonNav {
+    background-color: rgb(156, 52, 216);
+    color: rgb(236, 212, 243);
+}
+
+/* Inicio Grid del Main Main Main Main Main Main Main Main Main Main Main*/
+
+.container2 {
+    margin: 0 10px 0 10px;
+    height: 290px;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0;
+    grid-template-areas: 
+    "tit"
+    "med" 
+    "par1"
+    "par2"
+    "par3"
+    "par4"
+    "par5"
+    "par6"
+    "par7"
+    "pie";
+    align-items: center;
+}
+
+.titulo {
+    grid-area: tit;
+}
+.media {
+    grid-area: med;
+    text-align: center;
+}
+.parr1 {
+    grid-area: par1;
+    text-align: center;
+}
+.parr2 {
+    grid-area: par2;
+    text-align: center;
+}
+.parr3 {
+    grid-area: par3;
+    text-align: center;
+}
+.parr4 {
+    grid-area: par4;
+    text-align: center;
+}
+.parr5 {
+    grid-area: par5;
+    text-align: center;
+}
+.parr6 {
+    grid-area: par6;
+    text-align: center;
+}
+.parr7 {
+    grid-area: par7;
+    text-align: center;
+}
+.pieDePag {
+    grid-area: pie;
+}
+
+
+}
+/* --------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+/*---- TABLET ----*/
+@media (min-width: 481px) and (max-width: 1023px) {
+
+    /*Inicio estilo del header */
+    .container {
+        height: 290px;
+        display:grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 0;
+        grid-template-areas: "logo" "nave";
+        align-items: center;
+        align-content: space-around;
+    }
+    
+    .box1 {
+        grid-area: logo;
+        text-align: center;
+    }
+    .box2 {
+        grid-area: nave;
+        height: 50px;
+    }
+    
+    .imgLogo {
+
+        width: 350px;
+        height: 180px;
+        margin: 0 0 0 10px;
+    }
+    
+    .ulNav { 
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 0;
+    } 
+    
+    .listaNav {
+        margin: 10px;
+        padding: 3px;
+        text-align: center;
+        list-style-type:none;
+        border: 3px solid rgb(156, 52, 216);
+        border-radius: 8px 0 8px 0;
+        background-color: rgb(156, 52, 216);
+        box-shadow: 2px 2px 7px 1px rgb(59, 9, 88);
+    }
+    
+    .botonNav {
+        background-color: rgb(156, 52, 216);
+        color: rgb(236, 212, 243);
+    }
+
+
+/* Inicio Grid del Main Main Main Main Main Main Main Main Main Main Main*/
+
+.container2 {
+    margin: 0 10px 0 10px;
+    height: 290px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0;
+    grid-template-areas: 
+    "tit tit"
+    "med med" 
+    "par1 par1"
+    "par2 par2"
+    "par3 par4"
+    "par5 par5"
+    "par6 par7"
+    "pie pie";
+    align-items: center;
+}
+
+.titulo {
+    grid-area: tit;
+}
+.media {
+    grid-area: med;
+    text-align: center;
+}
+.parr1 {
+    grid-area: par1;
+    text-align: center;
+}
+.parr2 {
+    grid-area: par2;
+    text-align: center;
+}
+.parr3 {
+    grid-area: par3;
+    text-align: center;
+}
+.parr4 {
+    grid-area: par4;
+    text-align: center;
+}
+.parr5 {
+    grid-area: par5;
+    text-align: center;
+}
+.parr6 {
+    grid-area: par6;
+    text-align: center;
+}
+.parr7 {
+    grid-area: par7;
+    text-align: center;
+}
+.pieDePag {
+    grid-area: pie;
+}
+
+
+}
+
+
+
+
+
+/* --------------------------------------------------------------------- */
+
+
+
+
+
+
+/*---- DESKTOP ----*/
+@media (min-width:1024px) {
+
+    /*Inicio estilo del header */
+    .container {
+        height: 190px;
+        display:grid;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 100%;
+        grid-gap: 0;
+        grid-template-areas: "logo nave";
+        align-items: flex-end;
+    }
+    
+    .box1 {
+        grid-area: logo;
+    }
+    .box2 {
+        grid-area: nave;
+    }
+    
+    .imgLogo {
+        width: 350px;
+        height: 180px;
+        margin: 0 0 0 10px;
+    }
+    
+    .ulNav { 
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-bottom: 0;
+    } 
+    
+    .listaNav {
+        margin: 15px;
+        padding: 3px;
+        list-style-type:none;
+        border: 3px solid rgb(156, 52, 216);
+        border-radius: 8px 0 8px 0;
+        margin-bottom: 30px;
+        background-color: rgb(156, 52, 216);
+        box-shadow: 2px 2px 7px 1px rgb(59, 9, 88);
+    }
+    
+    .botonNav {
+        background-color: rgb(156, 52, 216);
+        color: rgb(236, 212, 243);
+    }
+
+
+
+/* Inicio Grid del Main Main Main Main Main Main Main Main Main Main Main*/
+
+.container2 {
+    margin: 0 10px 0 10px;
+    height: 290px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0;
+    grid-template-areas: 
+    "tit tit tit"
+    "med med med" 
+    "par1 par1 par1"
+    "par2 par2 par2"
+    "par3 par4 par5"
+    "par6 par6 par6"
+    "par7 par7 par7"
+    "pie pie pie";
+    align-items: center;
+}
+
+.titulo {
+    grid-area: tit;
+}
+.media {
+    grid-area: med;
+    text-align: center;
+}
+.parr1 {
+    grid-area: par1;
+    text-align: center;
+}
+.parr2 {
+    grid-area: par2;
+    text-align: center;
+}
+.parr3 {
+    grid-area: par3;
+    text-align: center;
+}
+.parr4 {
+    grid-area: par4;
+    text-align: center;
+}
+.parr5 {
+    grid-area: par5;
+    text-align: center;
+}
+.parr6 {
+    grid-area: par6;
+    text-align: center;
+}
+.parr7 {
+    grid-area: par7;
+    text-align: center;
+}
+.pieDePag {
+    grid-area: pie;
+}
+}
