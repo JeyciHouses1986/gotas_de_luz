@@ -2,9 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(243, 184, 243);
+
     font-family: 'Kufam', sans-serif;
     text-decoration: none;
+}
+
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    background: #fba6e1;
+    background: -moz-radial-gradient(center, ellipse cover, rgba(251,166,225,1) 0%, rgba(252,236,252,1) 0%, rgba(243,184,243,1) 50%, rgba(255,124,216,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(251,166,225,1)), color-stop(0%, rgba(252,236,252,1)), color-stop(50%, rgba(243,184,243,1)), color-stop(100%, rgba(255,124,216,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(251,166,225,1) 0%, rgba(252,236,252,1) 0%, rgba(243,184,243,1) 50%, rgba(255,124,216,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(251,166,225,1) 0%, rgba(252,236,252,1) 0%, rgba(243,184,243,1) 50%, rgba(255,124,216,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(251,166,225,1) 0%, rgba(252,236,252,1) 0%, rgba(243,184,243,1) 50%, rgba(255,124,216,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(251,166,225,1) 0%, rgba(252,236,252,1) 0%, rgba(243,184,243,1) 50%, rgba(255,124,216,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fba6e1', endColorstr='#ff7cd8', GradientType=1 );
 }
 
 h1 {    
@@ -104,7 +119,7 @@ footer {
     flex-direction: row;
     justify-content: center;
     margin-bottom: 0;
-} 
+    } 
     
 .listaNav {
     margin: 10px;
@@ -113,7 +128,7 @@ footer {
     list-style-type:none;
     border: 3px solid rgb(156, 52, 216);
     border-radius: 8px 0 8px 0;
-    background-color: rgb(156, 52, 216);
+    background-color: #9c34d8;
     box-shadow: 2px 2px 7px 1px rgb(59, 9, 88);
 }
     
@@ -238,10 +253,10 @@ footer {
         padding: 3px;
         text-align: center;
         list-style-type:none;
-        border: 3px solid rgb(156, 52, 216);
+        border: 3px solid #9c34d8;
         border-radius: 8px 0 8px 0;
         background-color: rgb(156, 52, 216);
-        box-shadow: 2px 2px 7px 1px rgb(59, 9, 88);
+        box-shadow: 2px 2px 7px 1px #3b0958;
     }
     
     .botonNav {
@@ -342,6 +357,7 @@ footer {
         grid-area: logo;
     }
     .box2 {
+        margin-right: 20px;
         grid-area: nave;
     }
     
@@ -435,4 +451,21 @@ footer {
 .pieDePag {
     grid-area: pie;
 }
+}
+
+.listaNav {
+transform: rotate(5deg);
+-webkit-transform: rotate(5deg);
+-moz-transform: rotate(5deg);
+}
+
+.listaNav:hover {
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+.imgLogo {
+    transform: translate(10px,19px);
+    -webkit-transform: translate(10px,19px);
+    -moz-transform: translate(10px,19px);
 }
