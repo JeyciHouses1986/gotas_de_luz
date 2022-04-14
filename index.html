@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link href="https://fonts.googleapis.com/css2?family=Festive&family=Kufam&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos/estilo.css">
     <link rel="shortcut icon" href="imagenes/favicon.ico" />
@@ -14,89 +15,147 @@
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <div class="box1">
-                <!---Este es el logo de la página-->
-                <img class="imgLogo" src="imagenes/logoheader.png" width="200" alt="cosmetica natural artesanal">
-            </div>
-            <div class="box2">
-                <nav>
-                    <!--menú de navegación-->
-                    <ul class="ulNav">
-                        <li class="listaNav"><a class="botonNav" href="index.html">Home</a></li>
-                        <li class="listaNav"><a class="botonNav" href="paginas/sobremi.html">Sobre mí</a></li>
-                        <li class="listaNav"><a class="botonNav" href="paginas/productos.html">Productos</a></li>
-                        <li class="listaNav"><a class="botonNav" href="paginas/clientesfelices.html">Clientes felices</a></li>
-                        <li class="listaNav"><a class="botonNav" href="paginas/contacto.html">Contacto</a></li>
-                    </ul>
-                </nav>
+    <!-- NAVBAR CON BOOTSTRAP -->
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img class="navbar-brand imgLogo" src="imagenes/logoheader.png" alt="cosmetica natural artesanal"
+                    width="300" height="240">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                    <li class="nav-item m-2">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item m-2">
+                        <a class="nav-link active" aria-current="page" href="paginas/sobremi.html">Sobre mí</a>
+                    </li>
+                    <li class="nav-item m-2 dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false"> Productos </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="paginas/productos.html">Shampoo sólido</a></li>
+                            <li><a class="dropdown-item" href="paginas/productos.html">Crema corporal</a></li>
+                            <li><a class="dropdown-item" href="paginas/productos.html">Jabones</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item m-2">
+                        <a class="nav-link active" aria-current="page" href="paginas/clientesfelices.html">Clientes felices</a>
+                    </li>
+                    <li class="nav-item m-2">
+                        <a class="nav-link active" aria-current="page" href="paginas/contacto.html">Contacto</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </header>
+    </nav>
+    <!-- Final de NAVBAR CON BOOTSTRAP -->
+
+
+
+
+
+
     <div class="container2">
-            <div class="titulo">
-                <!-- Titulo imagen bienvenida -->
-                <h1>Cosmética Natural Artesanal</h1>
-            </div>
-            <div class="media">
-                <img class="imgBienvenida" src="imagenes/portada.jpg" alt="cosmetica natural artesanal" width="50%"
-                    height="500px">
-            </div>
-            <!-- Texto beneficios -->
-            <div class="parr1">
-                <h2 class="">¿Cuáles son sus beneficios?</h2>
-            </div>
-            <div class="parr2">
-                <p>Cada vez son más las personas que optan por incorporar la<strong> cosmética natural
-                    </strong>a sus rutinas de <strong>belleza</strong>. En algunos casos, debido a la
-                    intolerancia a ciertas sustancias químicas que las obligan a buscar opciones más
-                    saludables; en otros, por una cuestión de conciencia que las lleva a exigir
-                    uncompromiso con el medio ambiente, la ecología y el consumo responsable. A
-                    continuación,repasamos algunas de las razones por las que pasarse a la cosmética
-                    natural:</p>
-            </div>
-            <div class="parr3">
-                <p><br><strong>1.</strong> <strong>Porque no contienen sustancias químicas que puedan dañar
-                        el organismo</strong>: los <strong>cosméticos</strong> convencionales contienen
-                    sustancias (como sulfatos, siliconas o parafinas) y <strong>fragancias</strong>
-                    artificialesque pueden provocar irritación, alergias y efectos tóxicos.</p>
-            </div>
-            <div class="parr4">
-                <p><br><strong>2.</strong> <strong>Porque se adaptan mejor al organismo</strong>: los
-                    cosméticos naturales contienen ácidos grasos muysimilares a los de la
-                    <strong>piel</strong>, por lo que la regeneran, cuidan y protegen de una forma más
-                    eficaz. Poreste mismo motivo, se adaptan mejor a cualquier tipo de piel sin
-                    generar irritación o alergias.
-            </div>
-            <div class="parr5">
-                <p><br><strong>3.</strong> <strong>Porque respetan y protegen el medioambiente</strong>: al
-                    optar por cosméticos ecológicos se ayuda aminimizar el impacto medioambiental, ya
-                    que estos productos suelen elaborarse siguiendonormas de fabricación sostenible,
-                    utilizando envases reciclables, sin generar residuos tóxicos nitesteos en
-                    animales.</p>
-            </div>
-            <div class="parr6">
-                <p><br><strong>4.</strong> <strong>Incluyen mayor cantidad de principios activos</strong>: a
-                    diferencia de los productos tradicionales quepor lo general utilizan ingredientes
-                    “de relleno” que no cumplen ninguna función beneficiosa parala piel, los
-                    cosméticos naturales están compuestos por ingredientes 100% dedicados a la
-                    funciónpara la cual fueron incluidos. Por este motivo, sus resultados suelen ser
-                    más rápidos y eficaces.</p>
-            </div>
-            <div class="parr7">
-                <p><br> Si aún no has probado la cosmética natural, te invitamos a acercarte a esta nueva
-                    experienciautilizando sustancias naturales y ecológicas. Tu piel y todo tu cuerpo
-                    te lo agradecerán.</p>
-            </div>
-            <div class="pieDePag">
-                <footer class="pieDePag">
-                    <p>Copyright Jeyci Dev Web &#174;</p>
-                    <a href="https://www.facebook.com/">Facebook</a>
-                    <a href="https://www.instagram.com/">Instagram</a>
-                </footer>
-            </div>
+        <div class="titulo">
+            <!-- Titulo imagen bienvenida -->
+            <h1>Cosmética Natural Artesanal</h1>
+
+
+            <!-- CARROUSEL BOOTSTRAP -->
+            <div id="carouselExampleIndicators" class="carousel slide mx-5 imgBienvenida my-5" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="imagenes/carrousel/solidPortada.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imagenes/carrousel/cremaPortada.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imagenes/carrousel/aguaPortada.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <!-- FIN CARROUSEL BOOTSTRAP -->
+
+        </div>
+        <div class="media">
+        </div>
+        <!-- Texto beneficios -->
+        <div class="parr1">
+            <h2 class="">¿Cuáles son sus beneficios?</h2>
+        </div>
+        <div class="parr2">
+            <p>Cada vez son más las personas que optan por incorporar la<strong> cosmética natural
+                </strong>a sus rutinas de <strong>belleza</strong>. En algunos casos, debido a la
+                intolerancia a ciertas sustancias químicas que las obligan a buscar opciones más
+                saludables; en otros, por una cuestión de conciencia que las lleva a exigir
+                uncompromiso con el medio ambiente, la ecología y el consumo responsable. A
+                continuación,repasamos algunas de las razones por las que pasarse a la cosmética
+                natural:</p>
+        </div>
+        <div class="parr3">
+            <p><br><strong>1.</strong> <strong>Porque no contienen sustancias químicas que puedan dañar
+                    el organismo</strong>: los <strong>cosméticos</strong> convencionales contienen
+                sustancias (como sulfatos, siliconas o parafinas) y <strong>fragancias</strong>
+                artificialesque pueden provocar irritación, alergias y efectos tóxicos.</p>
+        </div>
+        <div class="parr4">
+            <p><br><strong>2.</strong> <strong>Porque se adaptan mejor al organismo</strong>: los
+                cosméticos naturales contienen ácidos grasos muysimilares a los de la
+                <strong>piel</strong>, por lo que la regeneran, cuidan y protegen de una forma más
+                eficaz. Poreste mismo motivo, se adaptan mejor a cualquier tipo de piel sin
+                generar irritación o alergias.
+        </div>
+        <div class="parr5">
+            <p><br><strong>3.</strong> <strong>Porque respetan y protegen el medioambiente</strong>: al
+                optar por cosméticos ecológicos se ayuda aminimizar el impacto medioambiental, ya
+                que estos productos suelen elaborarse siguiendonormas de fabricación sostenible,
+                utilizando envases reciclables, sin generar residuos tóxicos nitesteos en
+                animales.</p>
+        </div>
+        <div class="parr6">
+            <p><br><strong>4.</strong> <strong>Incluyen mayor cantidad de principios activos</strong>: a
+                diferencia de los productos tradicionales quepor lo general utilizan ingredientes
+                “de relleno” que no cumplen ninguna función beneficiosa parala piel, los
+                cosméticos naturales están compuestos por ingredientes 100% dedicados a la
+                funciónpara la cual fueron incluidos. Por este motivo, sus resultados suelen ser
+                más rápidos y eficaces.</p>
+        </div>
+        <div class="parr7">
+            <p><br> Si aún no has probado la cosmética natural, te invitamos a acercarte a esta nueva
+                experienciautilizando sustancias naturales y ecológicas. Tu piel y todo tu cuerpo
+                te lo agradecerán.</p>
+        </div>
+        <div class="pieDePag">
+            <footer class="pieDePag">
+                <p>Copyright Jeyci Dev Web &#174;</p>
+                <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+            </footer>
+        </div>
     </div>
+    <!-- Javascript de Bootstrap -->
+    <script src="bootstrap/js/bootstrap.js"></script>
 </body>
 
 </html>

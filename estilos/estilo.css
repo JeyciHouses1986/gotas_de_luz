@@ -37,13 +37,13 @@ h3 {
     text-align: center;
 }
 
-.imgBienvenida {
-    width: 350px;
-    height: 200px;
+.carousel {
     border: 7px solid rgb(156, 52, 216);
     border-radius: 30px 0 30px 0;
     box-shadow: 3px 3px 9px 2px rgb(59, 9, 88);
 }
+
+
 
 .videoSobreMi {
     width: 60vw;
@@ -80,7 +80,29 @@ footer {
     justify-content: space-between;
 }
 
+.dropdown-menu {
+    background-color: #9c34d8;
+    border: 7px solid rgb(156, 52, 216);
+    border-radius: 10px 0 10px 0;
+    box-shadow: 3px 3px 9px 2px rgb(59, 9, 88);
+}
 
+.nav-item {
+    background-color: #9c34d8;
+    border: 1px solid rgb(156, 52, 216);
+    border-radius: 10px 0 10px 0;
+    box-shadow: 3px 3px 9px 2px rgb(59, 9, 88);
+}
+
+.carousel{
+    -moz-border-radius: 10px; /* FF1+ */
+    -webkit-border-radius: 10px; /* Saf3-4, iOS 1+, Android 1.5+ */
+    border-radius: 10px; /* Opera 10.5, IE9, Saf5, Chrome, FF4 */
+    border: 5px solid rgb(156, 52, 216);
+    overflow:hidden;
+    z-index: 1000;
+    max-width: 900px;
+}
 
 /* MOBILE FIRST */
 /*------------------- INDEX -------------------*/
@@ -341,6 +363,20 @@ footer {
 
 /*---- DESKTOP ----*/
 @media (min-width:1024px) {
+
+
+    /* Achicando el carrusel */
+    .imgBienvenida {
+        width: 750px;
+        height: 500px;
+    }
+    
+    .titulo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
     /*Inicio estilo del header */
     .container {
