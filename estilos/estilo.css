@@ -104,6 +104,8 @@ footer {
     max-width: 900px;
 }
 
+
+
 /* MOBILE FIRST */
 /*------------------- INDEX -------------------*/
 /*---- MOBILE ----*/
@@ -221,6 +223,10 @@ footer {
     grid-area: pie;
 }
 
+.videoclientes {
+    height: 30vh;
+    width: 80vw;
+}
 
 }
 /* --------------------------------------------------------------------- */
@@ -446,7 +452,7 @@ footer {
     "par6 par6 par6"
     "par7 par7 par7"
     "pie pie pie";
-    align-items: center;
+    align-items: flex-start;
 }
 
 .titulo {
@@ -504,4 +510,9 @@ transform: rotate(5deg);
     transform: translate(10px,19px);
     -webkit-transform: translate(10px,19px);
     -moz-transform: translate(10px,19px);
+}
+
+.imgcont {
+    width: 30px;
+    height: 30px;
 }

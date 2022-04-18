@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
-        <link href="https://fonts.googleapis.com/css2?family=Festive&family=Kufam&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="../estilos/estilo.css">
-        <link rel="shortcut icon" href="imagenes/favicon.ico" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Gotas de Luz-Cosmética Natural</title>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css2?family=Festive&family=Kufam&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../estilos/estilo.css">
+    <link rel="shortcut icon" href="imagenes/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gotas de Luz-Cosmética Natural</title>
+</head>
 
 <body>
- 
-       <!-- NAVBAR CON BOOTSTRAP -->
-       <nav class="navbar navbar-expand-lg navbar-light">
+
+    <!-- NAVBAR CON BOOTSTRAP -->
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="../index.html">
                 <img class="navbar-brand imgLogo" src="../imagenes/logoheader.png" alt="cosmetica natural artesanal"
@@ -59,52 +59,106 @@
 
 
     <!--Este es el formulario de contacto-->
-    <div class="container2">
-        <div class="titulo">
-            <h2>Formulario de contacto</h2>
-        </div>
-        <div class="media">
+    <!--Section: Contact v.2-->
+    <section class="mb-4">
+
+        <!--Section heading-->
+        <h2 class="h1-responsive font-weight-bold text-center my-4">Contactame</h2>
+        <!--Section description-->
+        <h5 class="text-center w-responsive mx-auto mb-5">Tenés alguna consulta? Por favor no dudes en contactarme y estaré contestandote en las próximas horas.</h5>
+
+        <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label for="name" class="">Tu nombre</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control">
+                                <label for="email" class="">Tu correo</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-12">
+
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="5"
+                                    class="form-control md-textarea"></textarea>
+                                <label for="message">Tu mensaje</label>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+                </form>
+
+                <div class="text-center text-md-left">
+                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                </div>
+                <div class="status"></div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-3 text-center">
+                <ul class="list-unstyled mb-0">
+                    <li><i></i>
+                        <img class="imgcont" src="../imagenes/contacto/location-dot-solid.svg" alt="ubicacion geografica">
+                        <p>Villa Carlos Paz - Córdoba Argentina</p>
+                    </li>
+
+                    <li><i></i>
+                        <img class="imgcont" src="../imagenes/contacto/whatsapp-square-brands.svg">
+                        <p>3516590062</p>
+                    </li>
+
+                    <li><i></i>
+                        <img class="imgcont" src="../imagenes/contacto/envelope-solid.svg">
+                        <p>gotasdeluzhigiene@gmail.com</p>
+                    </li>
+                </ul>
+            </div>
+            <!--Grid column-->
 
         </div>
-        <div class="parr1">
 
-        </div>
-        <div class="parr2">
-            <form action="">
-                <label for="Nombre">Nombre</label>
-                <input type="text" name="Nombre" placeholder="Ingrese su nombre"><br>
-                <label for="Correo">Correo:</label>
-                <input type="email" name="Correo" placeholder="Ingrese su e-mail"><br>
-                <label for="Comentarios">Comentarios:</label>
-                <textarea name="Comentarios" id="" cols="50" rows="15" placeholder="Ingrese aquí su consulta"></textarea><br>
-                
-                <!--botones para enviar o reiniciar el formulario-->
-                <input type="reset" value="Reiniciar formulario">
-                <input type="submit" value="Enviar">
-        </div>
-        <div class="parr3">
+    </section>
+    <!--Final del sección contacto-->
 
-        </div>
-        <div class="parr4">
 
-        </div>
-        <div class="parr5">
 
-        </div>
-        <div class="parr6">
 
-        </div>
-        <div class="parr7">
-
-        </div>
-        <!--pie de página-->
-        <div class="pieDePag">
-            <footer class="pieDePag">
-                <p>Copyright Jeyci Dev Web &#174;</p>
-                <a href="https://www.facebook.com/" target="_blank">Facebook</a>
-                <a href="https://www.instagram.com/" target="_blank">Instagram</a>
-            </footer>
-        </div>
+    <!--pie de página-->
+    <div class="pieDePag">
+        <footer class="pieDePag">
+            <p> © 2022 Copyright: Jeyci WebDev</p>
+            <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+        </footer>
+    </div>
     </div>
     <!-- Javascript de Bootstrap -->
     <script src="../bootstrap/js/bootstrap.js"></script>
