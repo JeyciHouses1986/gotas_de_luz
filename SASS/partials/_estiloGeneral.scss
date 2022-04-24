@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Kufam', sans-serif;
+    text-decoration: none;
+}
+
+
+html {
+    height: 100%;
+}
+
+/* Gradiente color fondo de todo el sitio */
+body {
+    height: 100%;
+    background: #fba6e1;
+    background: -moz-radial-gradient(center, ellipse cover, rgba(251, 166, 225, 1) 0%, rgba(252, 236, 252, 1) 0%, rgba(243, 184, 243, 1) 50%, rgba(255, 124, 216, 1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(251, 166, 225, 1)), color-stop(0%, rgba(252, 236, 252, 1)), color-stop(50%, rgba(243, 184, 243, 1)), color-stop(100%, rgba(255, 124, 216, 1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(251, 166, 225, 1) 0%, rgba(252, 236, 252, 1) 0%, rgba(243, 184, 243, 1) 50%, rgba(255, 124, 216, 1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(251, 166, 225, 1) 0%, rgba(252, 236, 252, 1) 0%, rgba(243, 184, 243, 1) 50%, rgba(255, 124, 216, 1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(251, 166, 225, 1) 0%, rgba(252, 236, 252, 1) 0%, rgba(243, 184, 243, 1) 50%, rgba(255, 124, 216, 1) 100%);
+    background: radial-gradient(ellipse at center, rgba(251, 166, 225, 1) 0%, rgba(252, 236, 252, 1) 0%, rgba(243, 184, 243, 1) 50%, rgba(255, 124, 216, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fba6e1', endColorstr='#ff7cd8', GradientType=1);
+}
+
+/* Estilo de párrafos */
+h1 {
+    margin: 15px 0 10px 0;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+/* Estilo del logo */
+.imgLogo {
+    width: 350px;
+    height: 180px;
+    margin: 0 0 0 10px;
+}
+
+/* Estilo del NAV */
+.dropdown-menu {
+    background-color: $colorAcento;
+    border: 7px solid $colorAcento;
+    border-radius: 10px 0 10px 0;
+    box-shadow: 3px 3px 9px 2px $colorSombra;
+}
+
+.nav-item {
+    background-color: $colorAcento;
+    border: 1px solid $colorAcento;
+    border-radius: 10px 0 10px 0;
+    box-shadow: 3px 3px 9px 2px $colorSombra;
+}
+
+/* Animación de los botones del NAV */
+.nav-item:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+
+/* Estilo del footer */
+
+footer {
+    font-size: small;
+    margin: 30px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilo íconos página contacto */
+.imgcont {
+    width: 30px;
+    height: 30px;
+}
