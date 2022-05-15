@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="../estilos/estilo.css">
     <link rel="shortcut icon" href="imagenes/favicon.ico" />
     <meta name="keywords" content="cosmetica, natural, artesanal, higiene">
-    <meta name="description" content="Página de contacto. Venta de productos de cosmética natural artesanal. Hechos con amor y consciencia">
+    <meta name="description"
+        content="Página de contacto. Venta de productos de cosmética natural artesanal. Hechos con amor y consciencia">
     <title>Gotas de Luz-Contacto</title>
 </head>
 
@@ -41,9 +42,9 @@
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false"> Productos </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="productos.html">Shampoo sólido</a></li>
-                            <li><a class="dropdown-item" href="productos.html">Crema corporal</a></li>
-                            <li><a class="dropdown-item" href="productos.html">Jabones</a></li>
+                            <li><a class="dropdown-item" href="productos.html#iampoo">Shampoo sólido</a></li>
+                            <li><a class="dropdown-item" href="productos.html#cremita">Crema corporal</a></li>
+                            <li><a class="dropdown-item" href="productos.html#javoncito">Jabones</a></li>
                         </ul>
                     </li>
                     <li class="nav-item m-2">
@@ -61,17 +62,17 @@
 
     <!--Este es el formulario de contacto-->
     <!--Section: Contact v.2-->
-    <section class="mb-4">
+    <section class="mb-5">
 
         <!--Section heading-->
         <h1 class="h1-responsive font-weight-bold text-center my-4">Contactame</h1>
         <!--Section description-->
-        <h2 class="text-center w-responsive mx-auto mb-5">Tenés alguna consulta? Por favor no dudes en contactarme y estaré contestandote en las próximas horas.</h2>
+        <h2 class="text-center w-responsive mx-auto mb-5">Tenés alguna consulta? Por favor no dudes en contactarme y
+            estaré contestandote en las próximas horas.</h2>
 
         <div class="row">
-
             <!--Grid column-->
-            <div class="col-md-9 mb-md-0 mb-5">
+            <div class="col-md-8 mb-md-0 mb-5">
                 <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 
                     <!--Grid row-->
@@ -127,18 +128,22 @@
             <div class="col-md-3 text-center">
                 <ul class="list-unstyled mb-0">
                     <li><i></i>
-                        <img class="imgcont" src="../imagenes/contacto/location-dot-solid.svg" alt="ubicacion geografica">
+                        <img class="imgcont" src="../imagenes/contacto/location-dot-solid.svg"
+                            alt="ubicacion geografica">
                         <p>Villa Carlos Paz - Córdoba Argentina</p>
                     </li>
 
                     <li><i></i>
-                        <img class="imgcont" src="../imagenes/contacto/whatsapp-square-brands.svg">
-                        <p>3516590062</p>
+                        <a href="https://api.whatsapp.com/send?phone=5493516590062&text=Hola!%20Quiero%20hacer%20una%20consulta"
+                            target="_blank"><img class="imgcont" src="../imagenes/contacto/whatsapp-square-brands.svg">
+                            <p>3516590062</p>
+                        </a>
                     </li>
 
                     <li><i></i>
-                        <img class="imgcont" src="../imagenes/contacto/envelope-solid.svg">
-                        <p>gotasdeluzhigiene@gmail.com</p>
+                        <a href="mailto:gotasdeluzhigiene@gmail.com"><img class="imgcont"
+                                src="../imagenes/contacto/envelope-solid.svg">
+                            <p>gotasdeluzhigiene@gmail.com</p>
                     </li>
                 </ul>
             </div>
@@ -154,13 +159,16 @@
 
     <!--pie de página-->
     <div class="pieDePag">
-        <footer class="pieDePag">
-            <p> © 2022 Copyright: Jeyci WebDev</p>
-            <a href="https://www.facebook.com/" target="_blank">Facebook</a>
-            <a href="https://www.instagram.com/gotasdeluzhigiene/" target="_blank">Instagram</a>
+        <footer class="pieDePag1">
+            <p><img class="imgcont" src="../imagenes/contacto/logotipoFacebook.svg"><a href="https://www.facebook.com/"
+                    target="_blank"></a></p>
+            <p><img class="imgcont" src="../imagenes/contacto/instagram.svg"><a
+                    href="https://www.instagram.com/gotasdeluzhigiene/" target="_blank"></a></p>
+            <p><a href="https://github.com/JeyciHouses1986" target="_blank"><img class="logoJc"
+                    src="../imagenes/jeyciWebDeb.png" )></a></p>
         </footer>
     </div>
-    </div>
+
     <!-- Javascript de Bootstrap -->
     <script src="../bootstrap/js/bootstrap.js"></script>
 </body>

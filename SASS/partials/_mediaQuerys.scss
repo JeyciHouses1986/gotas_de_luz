@@ -80,6 +80,12 @@
             width: 80vw;
         }
     }
+    
+    /* Width 100% de localidad en footer mobile */
+    .locaFoot {
+        width: 100%;
+    }
+        
 }
 
 /*-------------------- TABLET --------------------*/
@@ -102,7 +108,7 @@
             "par5 par5"
             "par6 par7"
             "pie pie";
-        align-items: center;
+        align-items: stretch;
 
 
         .titulo {
@@ -152,6 +158,10 @@
         .pieDePag {
             grid-area: pie;
         }
+    }
+    /* Width 100% de localidad en footer tablet */
+    .locaFoot {
+        width: 100%;
     }
 
 }
@@ -193,7 +203,7 @@
             "par6 par6 par6"
             "par7 par7 par7"
             "pie pie pie";
-        align-items: flex-start;
+        align-items: stretch;
 
 
         .titulo {
@@ -244,4 +254,10 @@
             grid-area: pie;
         }
     }
+
+    /* elevar nav para desktop */
+    .navbar-collapse{
+        margin-bottom: 20px;
+    }
+
 }

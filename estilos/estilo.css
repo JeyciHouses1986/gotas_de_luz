@@ -1,345 +1,343 @@
 @charset "UTF-8";
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Kufam", sans-serif;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kufam", sans-serif;
+  text-decoration: none;
 }
 
 html {
-    height: 100%;
+  height: 100%;
 }
 
 /* Gradiente color fondo de todo el sitio */
 body {
-    height: 100%;
-    background: #fba6e1;
-    background: -moz-radial-gradient(center, ellipse cover, rgb(251, 166, 225) 0%, rgb(252, 236, 252) 0%, rgb(243, 184, 243) 50%, rgb(255, 124, 216) 100%);
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgb(251, 166, 225)), color-stop(0%, rgb(252, 236, 252)), color-stop(50%, rgb(243, 184, 243)), color-stop(100%, rgb(255, 124, 216)));
-    background: -webkit-radial-gradient(center, ellipse cover, rgb(251, 166, 225) 0%, rgb(252, 236, 252) 0%, rgb(243, 184, 243) 50%, rgb(255, 124, 216) 100%);
-    background: -o-radial-gradient(center, ellipse cover, rgb(251, 166, 225) 0%, rgb(252, 236, 252) 0%, rgb(243, 184, 243) 50%, rgb(255, 124, 216) 100%);
-    background: -ms-radial-gradient(center, ellipse cover, rgb(251, 166, 225) 0%, rgb(252, 236, 252) 0%, rgb(243, 184, 243) 50%, rgb(255, 124, 216) 100%);
-    background: radial-gradient(ellipse at center, rgb(251, 166, 225) 0%, rgb(252, 236, 252) 0%, rgb(243, 184, 243) 50%, rgb(255, 124, 216) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fba6e1", endColorstr="#ff7cd8", GradientType=1);
+  height: 100%;
+  background: #fba6e1;
+  background: -moz-radial-gradient(center, ellipse cover, rgb(251, 166, 225) 0%, rgb(252, 236, 252) 0%, rgb(243, 184, 243) 50%, rgb(255, 124, 216) 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgb(251, 166, 225)), color-stop(0%, rgb(252, 236, 252)), color-stop(50%, rgb(243, 184, 243)), color-stop(100%, rgb(255, 124, 216)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgb(251, 166, 225) 0%, rgb(252, 236, 252) 0%, rgb(243, 184, 243) 50%, rgb(255, 124, 216) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgb(251, 166, 225) 0%, rgb(252, 236, 252) 0%, rgb(243, 184, 243) 50%, rgb(255, 124, 216) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgb(251, 166, 225) 0%, rgb(252, 236, 252) 0%, rgb(243, 184, 243) 50%, rgb(255, 124, 216) 100%);
+  background: radial-gradient(ellipse at center, rgb(251, 166, 225) 0%, rgb(252, 236, 252) 0%, rgb(243, 184, 243) 50%, rgb(255, 124, 216) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fba6e1", endColorstr="#ff7cd8", GradientType=1);
 }
 
 /* Estilo de párrafos */
 h1 {
-    margin: 15px 0 10px 0;
-    text-align: center;
+  margin: 15px 0 10px 0;
+  text-align: center;
 }
 
 h2 {
-    margin-top: 15px;
-    text-align: center;
+  margin-top: 15px;
+  text-align: center;
 }
 
 h3 {
-    margin-top: 15px;
-    text-align: center;
+  margin-top: 15px;
+  text-align: center;
 }
 
 /* Estilo del logo */
 .imgLogo {
-    width: 350px;
-    height: 180px;
-    margin: 0 0 0 10px;
+  width: 350px;
+  height: 180px;
+  margin: 0 0 0 10px;
 }
 
 /* Estilo del NAV */
 .dropdown-menu {
-    background-color: #9c34d8;
-    border: 7px solid #9c34d8;
-    border-radius: 10px 0 10px 0;
-    box-shadow: 3px 3px 9px 2px #3b0958;
+  background-color: #9c34d8;
+  border: 7px solid #9c34d8;
+  border-radius: 10px 0 10px 0;
+  box-shadow: 3px 3px 9px 2px #3b0958;
 }
 
 .nav-item {
-    background-color: #9c34d8;
-    border: 1px solid #9c34d8;
-    border-radius: 10px 0 10px 0;
-    box-shadow: 3px 3px 9px 2px #3b0958;
+  background-color: #9c34d8;
+  border: 1px solid #9c34d8;
+  border-radius: 10px 0 10px 0;
+  box-shadow: 3px 3px 9px 2px #3b0958;
 }
 
 /* Animación de los botones del NAV */
 .nav-item:hover {
-    transition: 0.5s;
-    transform: scale(1.1);
+  transition: 0.5s;
+  transform: scale(1.1);
 }
 
 /* Estilo del footer */
 footer {
-    font-size: small;
-    margin: 30px 0 0 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
+  font-size: small;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
 }
 
 /* Estilo íconos página contacto */
 .imgcont {
-    width: 30px;
-    height: 30px;
+  width: 50px;
+  height: 50px;
+}
+
+/* Fondo de parrafos */
+.parr1, .parr2, .parr3, .parr4, .parr5, .parr6, .parr7, .pieDePag1 {
+  margin: 2px;
+  padding: 4px 10px 4px 10px;
+  border-radius: 30px 0 30px 0;
+  background-color: rgba(59, 9, 88, 0.1);
+}
+
+/* Logo del footer */
+.logoJc {
+  width: 25px;
+  height: 28px;
+  border-radius: 10px;
+  margin-top: -15px;
+}
+
+.pieDePag1 {
+  padding: 20px 0 0 0;
 }
 
 /* Estilo carrousel */
 .carousel {
-    border: 7px solid #9c34d8;
-    border-radius: 30px 0 30px 0;
-    box-shadow: 3px 3px 9px 2px #3b0958;
-    -moz-border-radius: 10px;
-    /* FF1+ */
-    -webkit-border-radius: 10px;
-    /* Saf3-4, iOS 1+, Android 1.5+ */
-    border-radius: 10px;
-    /* Opera 10.5, IE9, Saf5, Chrome, FF4 */
-    border: 5px solid #9c34d8;
-    overflow: hidden;
-    z-index: 1000;
-    max-width: 900px;
+  border: 7px solid #9c34d8;
+  border-radius: 30px 0 30px 0;
+  box-shadow: 3px 3px 9px 2px #3b0958;
+  -moz-border-radius: 10px;
+  /* FF1+ */
+  -webkit-border-radius: 10px;
+  /* Saf3-4, iOS 1+, Android 1.5+ */
+  border-radius: 10px;
+  /* Opera 10.5, IE9, Saf5, Chrome, FF4 */
+  border: 5px solid #9c34d8;
+  overflow: hidden;
+  z-index: 1000;
+  max-width: 900px;
 }
 
 /* Video de la página Sobre Mí */
 .videoSobreMi {
-    width: 60vw;
-    border: 7px solid #9c34d8;
-    border-radius: 30px 0 30px 0;
-    box-shadow: 3px 3px 9px 2px #3b0958;
+  width: 60vw;
+  border: 7px solid #9c34d8;
+  border-radius: 30px 0 30px 0;
+  box-shadow: 3px 3px 9px 2px #3b0958;
 }
 
 /* Imágenes de productos */
 .imagenesP {
-    margin: 10px 0 10px 0;
-    width: 300px;
-    height: 260px;
-    border: 7px solid #9c34d8;
-    border-radius: 30px 0 30px 0;
-    box-shadow: 3px 3px 9px 2px #3b0958;
+  margin: 10px 0 10px 0;
+  width: 300px;
+  height: 260px;
+  border: 7px solid #9c34d8;
+  border-radius: 30px 0 30px 0;
+  box-shadow: 3px 3px 9px 2px #3b0958;
 }
 
 /* Videl de página clientes */
 .videoclientes {
-    text-align: center;
-    height: 60vh;
-    width: 55vw;
-    border: 7px solid #9c34d8;
-    border-radius: 30px 0 30px 0;
-    box-shadow: 3px 3px 9px 2px #3b0958;
+  text-align: center;
+  height: 60vh;
+  width: 55vw;
+  border: 7px solid #9c34d8;
+  border-radius: 30px 0 30px 0;
+  box-shadow: 3px 3px 9px 2px #3b0958;
 }
 
 /*----------------------------- MOBILE FIRST -----------------------------*/
 /*-------------------- MOBILE --------------------*/
 @media (max-width: 480px) {
+  /* Inicio Grid del Main*/
+  .container2 {
+    margin: 0 10px 0 10px;
+    height: 290px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0;
+    grid-template-areas: "tit" "med" "par1" "par2" "par3" "par4" "par5" "par6" "par7" "pie";
+    align-items: center;
+  }
+  .container2 .titulo {
+    grid-area: tit;
+  }
+  .container2 .media {
+    grid-area: med;
+    text-align: center;
+  }
+  .container2 .parr1 {
+    grid-area: par1;
+    text-align: center;
+  }
+  .container2 .parr2 {
+    grid-area: par2;
+    text-align: center;
+  }
+  .container2 .parr3 {
+    grid-area: par3;
+    text-align: center;
+  }
+  .container2 .parr4 {
+    grid-area: par4;
+    text-align: center;
+  }
+  .container2 .parr5 {
+    grid-area: par5;
+    text-align: center;
+  }
+  .container2 .parr6 {
+    grid-area: par6;
+    text-align: center;
+  }
+  .container2 .parr7 {
+    grid-area: par7;
+    text-align: center;
+  }
+  .container2 .pieDePag {
+    grid-area: pie;
+  }
+  .container2 .videoclientes {
+    height: 30vh;
+    width: 80vw;
+  }
 
-    /* Inicio Grid del Main*/
-    .container2 {
-        margin: 0 10px 0 10px;
-        height: 290px;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-gap: 0;
-        grid-template-areas: "tit""med""par1""par2""par3""par4""par5""par6""par7""pie";
-        align-items: center;
-    }
-
-    .container2 .titulo {
-        grid-area: tit;
-    }
-
-    .container2 .media {
-        grid-area: med;
-        text-align: center;
-    }
-
-    .container2 .parr1 {
-        grid-area: par1;
-        text-align: center;
-    }
-
-    .container2 .parr2 {
-        grid-area: par2;
-        text-align: center;
-    }
-
-    .container2 .parr3 {
-        grid-area: par3;
-        text-align: center;
-    }
-
-    .container2 .parr4 {
-        grid-area: par4;
-        text-align: center;
-    }
-
-    .container2 .parr5 {
-        grid-area: par5;
-        text-align: center;
-    }
-
-    .container2 .parr6 {
-        grid-area: par6;
-        text-align: center;
-    }
-
-    .container2 .parr7 {
-        grid-area: par7;
-        text-align: center;
-    }
-
-    .container2 .pieDePag {
-        grid-area: pie;
-    }
-
-    .container2 .videoclientes {
-        height: 30vh;
-        width: 80vw;
-    }
+  /* Width 100% de localidad en footer mobile */
+  .locaFoot {
+    width: 100%;
+  }
 }
-
 /*-------------------- TABLET --------------------*/
 @media (min-width: 481px) and (max-width: 1023px) {
+  /* Inicio Grid del Main*/
+  .container2 {
+    margin: 0 10px 0 10px;
+    height: 290px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0;
+    grid-template-areas: "tit tit" "med med" "par1 par1" "par2 par2" "par3 par4" "par5 par5" "par6 par7" "pie pie";
+    align-items: stretch;
+  }
+  .container2 .titulo {
+    grid-area: tit;
+  }
+  .container2 .media {
+    grid-area: med;
+    text-align: center;
+  }
+  .container2 .parr1 {
+    grid-area: par1;
+    text-align: center;
+  }
+  .container2 .parr2 {
+    grid-area: par2;
+    text-align: center;
+  }
+  .container2 .parr3 {
+    grid-area: par3;
+    text-align: center;
+  }
+  .container2 .parr4 {
+    grid-area: par4;
+    text-align: center;
+  }
+  .container2 .parr5 {
+    grid-area: par5;
+    text-align: center;
+  }
+  .container2 .parr6 {
+    grid-area: par6;
+    text-align: center;
+  }
+  .container2 .parr7 {
+    grid-area: par7;
+    text-align: center;
+  }
+  .container2 .pieDePag {
+    grid-area: pie;
+  }
 
-    /* Inicio Grid del Main*/
-    .container2 {
-        margin: 0 10px 0 10px;
-        height: 290px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-gap: 0;
-        grid-template-areas: "tit tit""med med""par1 par1""par2 par2""par3 par4""par5 par5""par6 par7""pie pie";
-        align-items: center;
-    }
-
-    .container2 .titulo {
-        grid-area: tit;
-    }
-
-    .container2 .media {
-        grid-area: med;
-        text-align: center;
-    }
-
-    .container2 .parr1 {
-        grid-area: par1;
-        text-align: center;
-    }
-
-    .container2 .parr2 {
-        grid-area: par2;
-        text-align: center;
-    }
-
-    .container2 .parr3 {
-        grid-area: par3;
-        text-align: center;
-    }
-
-    .container2 .parr4 {
-        grid-area: par4;
-        text-align: center;
-    }
-
-    .container2 .parr5 {
-        grid-area: par5;
-        text-align: center;
-    }
-
-    .container2 .parr6 {
-        grid-area: par6;
-        text-align: center;
-    }
-
-    .container2 .parr7 {
-        grid-area: par7;
-        text-align: center;
-    }
-
-    .container2 .pieDePag {
-        grid-area: pie;
-    }
+  /* Width 100% de localidad en footer tablet */
+  .locaFoot {
+    width: 100%;
+  }
 }
-
 /*-------------------- DESKTOP --------------------*/
 @media (min-width: 1024px) {
+  /* Achicando el carrusel para la vista mobile */
+  .imgBienvenida {
+    width: 750px;
+    height: 500px;
+  }
 
-    /* Achicando el carrusel para la vista mobile */
-    .imgBienvenida {
-        width: 750px;
-        height: 500px;
-    }
+  .titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .titulo {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  /* Inicio Grid del Main */
+  .container2 {
+    margin: 0 10px 0 10px;
+    height: 290px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0;
+    grid-template-areas: "tit tit tit" "med med med" "par1 par1 par1" "par2 par2 par2" "par3 par4 par5" "par6 par6 par6" "par7 par7 par7" "pie pie pie";
+    align-items: stretch;
+  }
+  .container2 .titulo {
+    grid-area: tit;
+  }
+  .container2 .media {
+    grid-area: med;
+    text-align: center;
+  }
+  .container2 .parr1 {
+    grid-area: par1;
+    text-align: center;
+  }
+  .container2 .parr2 {
+    grid-area: par2;
+    text-align: center;
+  }
+  .container2 .parr3 {
+    grid-area: par3;
+    text-align: center;
+  }
+  .container2 .parr4 {
+    grid-area: par4;
+    text-align: center;
+  }
+  .container2 .parr5 {
+    grid-area: par5;
+    text-align: center;
+  }
+  .container2 .parr6 {
+    grid-area: par6;
+    text-align: center;
+  }
+  .container2 .parr7 {
+    grid-area: par7;
+    text-align: center;
+  }
+  .container2 .pieDePag {
+    grid-area: pie;
+  }
 
-    /* Inicio Grid del Main */
-    .container2 {
-        margin: 0 10px 0 10px;
-        height: 290px;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-gap: 0;
-        grid-template-areas: "tit tit tit""med med med""par1 par1 par1""par2 par2 par2""par3 par4 par5""par6 par6 par6""par7 par7 par7""pie pie pie";
-        align-items: flex-start;
-    }
-
-    .container2 .titulo {
-        grid-area: tit;
-    }
-
-    .container2 .media {
-        grid-area: med;
-        text-align: center;
-    }
-
-    .container2 .parr1 {
-        grid-area: par1;
-        text-align: center;
-    }
-
-    .container2 .parr2 {
-        grid-area: par2;
-        text-align: center;
-    }
-
-    .container2 .parr3 {
-        grid-area: par3;
-        text-align: center;
-    }
-
-    .container2 .parr4 {
-        grid-area: par4;
-        text-align: center;
-    }
-
-    .container2 .parr5 {
-        grid-area: par5;
-        text-align: center;
-    }
-
-    .container2 .parr6 {
-        grid-area: par6;
-        text-align: center;
-    }
-
-    .container2 .parr7 {
-        grid-area: par7;
-        text-align: center;
-    }
-
-    .container2 .pieDePag {
-        grid-area: pie;
-    }
+  /* elevar nav para desktop */
+  .navbar-collapse {
+    margin-bottom: 20px;
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */
